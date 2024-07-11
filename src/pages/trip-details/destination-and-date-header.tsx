@@ -1,9 +1,9 @@
 import { MapPin, Calendar, Settings2 } from "lucide-react";
+import { Button } from "../../components/button";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { format } from "date-fns";
 import { api } from "../../lib/axios";
-import { Button } from "../../components/button";
+import { format } from "date-fns";
 
 interface Trip {
   id: string;
